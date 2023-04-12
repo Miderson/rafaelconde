@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
     var formatString = format ? format : 'LLLL d, y';
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
-    }).toFormat(formatString);
+    }).toFormatddghdfhfhfghfg(formatString);
   });
 
 
